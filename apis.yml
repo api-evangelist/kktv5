@@ -1,19 +1,53 @@
 aid: kktv5
-name: kktv5
-description: kktv5 is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: KK直播 (KK Live)
+description: >-
+  KK直播 (KK Live) is a Chinese mobile-first video livestreaming and social
+  entertainment platform operated by 杭州米络文化传播有限公司 (Hangzhou Melot Culture
+  Communication Co., Ltd.), part of 米络星集团 (Melot Group), headquartered in
+  Hangzhou with offices in Beijing, Changsha, Xi'an, Shenyang, Los Angeles and
+  Mumbai. Founded in 2012 to fill the gap in mobile livestreaming variety shows,
+  the platform pairs talent and performance streaming with interactive social
+  features — virtual gifting, bullet comments (弹幕), multi-person live
+  connections, PK mini-games, karaoke rooms, outdoor streaming and paid
+  companionship. The company reports more than 100,000 independent streamers,
+  over 600 partner talent agencies and 150 million registered users. Melot Group
+  runs three business lines — entertainment livestreaming, online education and
+  video service solutions — under the KK, 棒直播 and 米乐 brands. Backed by Qiming
+  Venture Partners (启明创投), Sequoia China (红杉资本), CMC Capital (华人文化基金) and
+  Shanda Capital (盛大资本). KK Live is a business-to-consumer product: as of this
+  enrichment pass it publishes no public developer portal, API documentation,
+  SDKs or machine-readable API specifications.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.kktv5.com/favicon.ico
 url: https://raw.githubusercontent.com/api-evangelist/kktv5/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - qiming
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Live Streaming
+- Video
+- Social Networking
+- Entertainment
+- Consumer
+- Mobile Applications
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +56,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://kktv5.com
+  url: https://www.kktv5.com
+- type: About
+  url: https://www.kktv5.com/help/aboutUs?cataId=1
+- type: Contact
+  url: https://www.kktv5.com/help/connectUs?cataId=2
+- type: Support
+  url: https://www.kktv5.com/help/serviceCenter?source=third
+- type: TermsOfService
+  url: https://www.kktv5.com/help/content?noticeId=194
+- type: Download
+  url: https://www.kktv5.com/download
+- type: SiteMap
+  url: https://www.kktv5.com/help/siteMap
+- type: DomainSecurity
+  url: security/kktv5-domain-security.yml
+- type: LLMsTxt
+  url: llms/kktv5-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
