@@ -17,6 +17,17 @@ description: >-
   Shanda Capital (盛大资本). KK Live is a business-to-consumer product: as of this
   enrichment pass it publishes no public developer portal, API documentation,
   SDKs or machine-readable API specifications.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
