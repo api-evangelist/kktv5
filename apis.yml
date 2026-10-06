@@ -49,7 +49,7 @@ x-tier: stub
 x-tier-reason: no-public-api-surface
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-10-06'
 tags:
 - Company
 - Live Streaming
@@ -75,6 +75,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://www.kktv5.com/blog/
+  type: Blog
 - type: Website
   url: https://www.kktv5.com
 - type: About
